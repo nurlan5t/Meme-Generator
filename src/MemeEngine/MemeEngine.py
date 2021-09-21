@@ -10,7 +10,7 @@ class MemeEngine():
     def __init__(self, out_path: str):
         """Initialize meme object with user-defined \
         output path to save the meme."""
-        self.out_path = out_path
+        self.out_path = './tmp'
 
     def make_meme(self, img_path: str,
                   text=None, author=None, width=500) -> str:
